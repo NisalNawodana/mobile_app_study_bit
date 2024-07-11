@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Assignment_1</string>
+
+
+    <string-array name="courseName">
+        <item>Select</item>
+        <item>Engineering</item>
+        <item>Art</item>
+        <item>Com</item>
+    </string-array>
+
+    <string-array name="branchname">
+        <item>Select</item>
+        <item>Colombo</item>
+        <item>Jaffna</item>
+        <item>Galle</item>
+        <item>Gampaha</item>
+        <item>Kottawa</item>
+    </string-array>
+</resources>

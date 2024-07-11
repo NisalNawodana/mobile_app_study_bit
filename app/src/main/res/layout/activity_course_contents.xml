@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register_background"
+    android:padding="10dp"
+    tools:context=".courseContents">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="monospace"
+        android:text="Registration For Courses"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/rounded_corner"
+        android:padding="8dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+
+
+    <Spinner
+        android:id="@+id/spinner_course"
+        style="@android:style/Widget.DeviceDefault.Spinner"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="32dp"
+        android:entries="@array/courseName"
+        android:padding="8dp"
+
+        android:textAlignment="center"
+        android:touchscreenBlocksFocus="true"
+        android:transitionGroup="true" />
+
+    <TextView
+        android:id="@+id/coursename"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="monospace"
+        android:padding="8dp"
+        android:text="Course Name"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+    <Spinner
+        android:id="@+id/spinner_branch"
+        style="@android:style/Widget.DeviceDefault.Spinner"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="32dp"
+        android:entries="@array/branchname"
+        android:padding="8dp"
+        android:textAlignment="center"
+        android:touchscreenBlocksFocus="true"
+        android:transitionGroup="true" />
+
+    <TextView
+        android:id="@+id/branch_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="250dp"
+        android:fontFamily="monospace"
+        android:padding="8dp"
+        android:text="Branch Name"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cousefee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="300dp"
+        android:fontFamily="monospace"
+        android:padding="8dp"
+        android:text="Course Fee :"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="350dp"
+        android:fontFamily="monospace"
+        android:padding="8dp"
+        android:text="Duration :"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/publishedon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="400dp"
+        android:fontFamily="monospace"
+        android:padding="8dp"
+        android:text="Published On :"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/closeon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="450dp"
+        android:fontFamily="monospace"
+        android:padding="8dp"
+        android:text="Registration Close on :"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/startingon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="500dp"
+        android:fontFamily="monospace"
+        android:padding="8dp"
+        android:text="Starting on :"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+
+
+
+</RelativeLayout>
