@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
                 String studentPassword = password.getText().toString();
 
                 if (studentEmail.isEmpty() || studentPassword.isEmpty()) {
-                    Toast.makeText(MainActivity.this, "Please enter all details", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Please enter all detailss", Toast.LENGTH_SHORT).show();
                 } else {
                     Boolean checkUserPass = myDB. checkusernamePassword(studentEmail, studentPassword);
                     if (checkUserPass) {
